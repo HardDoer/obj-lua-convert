@@ -21,4 +21,4 @@ Currently only the above data (vertices and faces) are exported as I only care a
 
 ## Instructions
 
-To use simply run the program with the filepath of the obj-file like so "go run . <pathToObjFile>"
+To use simply run the program with the filepath of the obj-file like so "go run . /home/me/3dmodel.obj"
