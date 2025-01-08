@@ -14,8 +14,8 @@ func main() {
 		os.Exit(1)
 	}
 	var fileName string 
-	var vertices = "vertices: {\n"
-	var faces = "faces: {\n"
+	var vertices = "vertices={\n"
+	var faces = "faces={\n"
 	var result = ""
 	file, err := os.Open(someArgs[0])
 	if (err != nil) {
