@@ -16,9 +16,9 @@ faces={
 }
 }
 
-This is nice so we can easily use this when making 3D with Pico-8 for example.
+I made this so I could easily import 3d-models to Pico-8.
 Currently only the above data (vertices and faces) are exported as I only care about those but I will maybe add support for texture coordinates etc. in the future.
 
 ## Instructions
 
-To use simply run the program with the filepath of the obj-file like so "go run . /home/me/3dmodel.obj"
+To use simply run the program with the filepath of the obj-file like so "go run ./src /home/me/3dmodel.obj"
